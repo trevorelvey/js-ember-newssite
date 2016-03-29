@@ -1,0 +1,12 @@
+Bustle Clone
+Bustle is a news site written with Ember.js. Construct a clone of Bustle by rebuilding some of the site's main features. Focus primarily on construction and functionality. Don't worry about styling the site to look like Bustle until core functionality is implemented.
+
+Include a header and navbar that is present on all pages throughout the application.
+
+Include a homepage with sample headlines, photos, and authors (Hint: You'll probably want to upload some sample stories to Firebase with a JSON file to begin).
+
+Users should be able to click on a headline or photo to view the full story.
+
+Add an 'admin' portal where site administrators may add new stories, or edit existing stories directly through a form on your site. (But we won't deal with user sign-in and authentication just yet).
+
+Now, on Bustle's homepage, notice that there is a "carousel" at the top, with arrows on either side; when you click an arrow, a new image moves to the center of the screen. Add this feature. (But don't worry about the scrolling effect.)

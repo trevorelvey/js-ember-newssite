@@ -1,0 +1,8 @@
+<li>
+  <p><img src={{article.image}} alt={{article.title}}></p><br>
+  {{article.title}}<br>
+  {{article.author}}<br>
+  {{article.tagline}}
+  {{update-article article=article update="update"}}
+  <button {{action 'delete' article}}>Delete Article</button>
+</li>

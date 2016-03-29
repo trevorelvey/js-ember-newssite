@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Blah</h1>
+
+  <ul>
+    {{#each model as |article|}}
+      {{article-tile article=article update="update" destroyArticle="destroyArticle"}}
+    {{/each}}
+  </ul>
+
+  {{new-article save2="save3"}}
+
+</div>
